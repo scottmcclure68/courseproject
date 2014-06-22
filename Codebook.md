@@ -2,10 +2,6 @@
 ###Scott McClure (scottmcclure68)
 
 ####Overview
-The purpose of this project is to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.  Deliverables included with this project include:
+The purpose of this file is to provide descriptions of all of the columns included in the tidy dataset called "means_of_mean_and_stdev_type_features.txt".  This dataset is created by the "run_analysis.R" file and can be loaded into a data frame using a read.table command.
 
-  1.  A tidy data set which conforms to the guidelines and rules outlined in the Hadley Wickham Tiday data paper mentioned in the first week of class (http://vita.had.co.nz/papers/tidy-data.pdf)
-  2.  A link to a Github repository with the script (run_analysis.R) for performing the analysis
-  3.  A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data called CodeBook.md
-  4.  A README.md file (this file) which explains how all of the scripts work and how they are connected  
-
+####
