@@ -47,4 +47,4 @@ MoltenTestTrainData <- melt(TestTrainData, id.vars=c("SubjectID", "ActivityID"))
 TidyTestTrainData <- dcast(data = MoltenTestTrainData, SubjectID + ActivityID ~ variable, fun = mean)
 
 ## Write the resulting tidy data set as a TXT file
-write.table(TidyTestTrainData, file="tidytesttraindata.txt")
+write.table(TidyTestTrainData, file="means_of_mean_and_stdev_type_features.txt", row.names = FALSE)
