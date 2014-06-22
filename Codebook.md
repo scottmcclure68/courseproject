@@ -91,7 +91,8 @@ The purpose of this file is to provide descriptions of all of the columns includ
       A numeric value providing the standard deviation for the Z-axis gravity acceleration signal derived in time.
 
 27.  __tBodyGyroJerk-mean()-X (NUMERIC)__
-  
+      A numeric value providing the mean for the X-axis acceleration signal derived in time.
+
 28.  __tBodyGyroJerk-mean()-Y (NUMERIC)__
 
 29.  __tBodyGyroJerk-mean()-Z (NUMERIC)__
