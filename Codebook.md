@@ -73,55 +73,70 @@ The purpose of this file is to provide descriptions of all of the columns includ
       A numeric value providing the standard deviation for the Z-axis body acceleration signal derived in time.
 
 21.  __tBodyGyro-mean()-X (NUMERIC)__
-      A numeric value providing the mean for the X-axis gravity acceleration signal derived in time.
+      A numeric value providing the mean for the X-axis body gyroscope signal.
 
 22.  __tBodyGyro-mean()-Y (NUMERIC)__
-      A numeric value providing the mean for the Y-axis gravity acceleration signal derived in time.
+      A numeric value providing the mean for the Y-axis body gyroscope signal.
 
 23.  __tBodyGyro-mean()-Z (NUMERIC)__
-      A numeric value providing the mean for the Z-axis gravity acceleration signal derived in time.
+      A numeric value providing the mean for the Z-axis body gyroscope signal.
 
 24.  __tBodyGyro-std()-X (NUMERIC)__
-      A numeric value providing the standard deviation for the X-axis gravity acceleration signal derived in time.
+      A numeric value providing the standard deviation for the X-axis body gyroscope signal.
 
 25.  __tBodyGyro-std()-Y (NUMERIC)__
-      A numeric value providing the standard deviation for the Y-axis gravity acceleration signal derived in time.
+      A numeric value providing the standard deviation for the Y-axis body gyroscope signal.
 
 26.  __tBodyGyro-std()-Z (NUMERIC)__
-      A numeric value providing the standard deviation for the Z-axis gravity acceleration signal derived in time.
+      A numeric value providing the standard deviation for the Z-axis body gyroscope signal.
 
 27.  __tBodyGyroJerk-mean()-X (NUMERIC)__
-      A numeric value providing the mean for the X-axis acceleration signal derived in time.
+      A numeric value providing the mean for the X-axis body gyroscope signal derived in time.
 
 28.  __tBodyGyroJerk-mean()-Y (NUMERIC)__
+      A numeric value providing the mean for the Y-axis body gyroscope signal derived in time.
 
 29.  __tBodyGyroJerk-mean()-Z (NUMERIC)__
+      A numeric value providing the mean for the Z-axis body gyroscope signal derived in time.
 
 30.  __tBodyGyroJerk-std()-X (NUMERIC)__
+      A numeric value providing the standard deviation for the X-axis body gyroscope signal derived in time.
 
 31.  __tBodyGyroJerk-std()-Y (NUMERIC)__
+      A numeric value providing the standard deviation for the Y-axis body gyroscope signal derived in time.
 
 32.  __tBodyGyroJerk-std()-Z (NUMERIC)__
+      A numeric value providing the standard deviation for the Z-axis body gyroscope signal derived in time.
 
 33.  __tBodyAccMag-mean() (NUMERIC)__
+      A numeric value providing the mean magnitude for the three-dimensional body acceleration signal using the Euclidean       norm.
 
 34.  __tBodyAccMag-std() (NUMERIC)__
+      A numeric value providing the standard deviation magnitude for the three-dimensional body acceleration signal using       the Euclidean norm.
 
 35.  __tGravityAccMag-mean() (NUMERIC)__
+      A numeric value providing the mean magnitude for the three-dimensional gravity acceleration signal using the             Euclidean norm.
 
 36.  __tGravityAccMag-std() (NUMERIC)__
+      A numeric value providing the standard deviation magnitude for the three-dimensional gravity acceleration signal         using the Euclidean norm.
 
 37.  __tBodyAccJerkMag-mean() (NUMERIC)__
+      A numeric value providing the mean magnitude for the three-dimensional body acceleration signal derived in time          using the Euclidean norm.
 
 38.  __tBodyAccJerkMag-std() (NUMERIC)__
+      A numeric value providing the standard deviation magnitude for the three-dimensional body acceleration signal            derived in time using the Euclidean norm.
 
 39.  __tBodyGyroMag-mean() (NUMERIC)__
+      A numeric value providing the mean magnitude for the three-dimensional body gyroscope signal derived in time using       the Euclidean norm.
 
 40.  __tBodyGyroMag-std() (NUMERIC)__
+      A numeric value providing the standard deviation for the three-dimensional body gyroscope signal derived in time         using the Euclidean norm.
 
 41.  __tBodyGyroJerkMag-mean() (NUMERIC)__
+      A numeric value providing the mean for the three-dimensional body gyroscope signal derived in time using the             Euclidean norm.
 
 42.  __tBodyGyroJerkMag-std() (NUMERIC)__
+      A numeric value providing the standard deviation for the three-dimensional body gyroscope signal derived in time         using the Euclidean norm.
 
 43.  __fBodyAcc-mean()-X (NUMERIC)__
 
