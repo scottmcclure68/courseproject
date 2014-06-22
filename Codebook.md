@@ -6,10 +6,10 @@ The purpose of this file is to provide descriptions of all of the columns includ
 
 ####Column Names
 
-1.  SubjectID (INTEGER)
+1.  __SubjectID (INTEGER)__
       An integer value between 1 and 30 which identifies the subject who performed the activity for each window.
 
-2.  ActivityID (INTEGER)
+2.  __ActivityID (INTEGER)__
       An integer value between 1 and 6 which ties to the "activity_labels.txt" file as follows:
                   1 WALKING
                   2 WALKING_UPSTAIRS
