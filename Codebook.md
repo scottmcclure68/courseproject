@@ -4,7 +4,7 @@
 ####Overview
 The purpose of this file is to provide descriptions of all of the columns included in the tidy dataset called "means_of_mean_and_stdev_type_features.txt".  This dataset is created by the "run_analysis.R" file and can be loaded into a data frame using a read.table command.
 
-####Column Names
+####Column Names and Definitions
 
 1.  __SubjectID (INTEGER)__
       An integer value between 1 and 30 which identifies the subject who performed the activity for each window.
@@ -130,63 +130,88 @@ The purpose of this file is to provide descriptions of all of the columns includ
       A numeric value providing the mean magnitude for the three-dimensional body gyroscope signal derived in time using       the Euclidean norm.
 
 40.  __tBodyGyroMag-std() (NUMERIC)__
-      A numeric value providing the standard deviation for the three-dimensional body gyroscope signal derived in time         using the Euclidean norm.
+      A numeric value providing the standard deviation magnitude for the three-dimensional body gyroscope signal derived       in time using the Euclidean norm.
 
 41.  __tBodyGyroJerkMag-mean() (NUMERIC)__
-      A numeric value providing the mean for the three-dimensional body gyroscope signal derived in time using the             Euclidean norm.
+      A numeric value providing the mean magnitude for the three-dimensional body gyroscope signal derived in time using       the Euclidean norm.
 
 42.  __tBodyGyroJerkMag-std() (NUMERIC)__
-      A numeric value providing the standard deviation for the three-dimensional body gyroscope signal derived in time         using the Euclidean norm.
+      A numeric value providing the standard deviation magnitude for the three-dimensional body gyroscope signal derived       in time using the Euclidean norm.
 
 43.  __fBodyAcc-mean()-X (NUMERIC)__
+      A numeric value providing the mean for the X-axis body acceleration signal derived using a Fast Fourier Transform        (FFT). 
 
-44.  __BodyAcc-mean()-Y (NUMERIC)__
+44.  __fBodyAcc-mean()-Y (NUMERIC)__
+      A numeric value providing the mean for the Y-axis body acceleration signal derived using a Fast Fourier Transform        (FFT).
 
 45.  __fBodyAcc-mean()-Z (NUMERIC)__
+      A numeric value providing the mean for the Z-axis body acceleration signal derived using a Fast Fourier Transform        (FFT).
 
 46.  __fBodyAcc-std()-X (NUMERIC)__
+      A numeric value providing the standard deviation for the X-axis body acceleration signal derived using a Fast            Fourier Transform (FFT).
 
 47.  __fBodyAcc-std()-Y (NUMERIC)__
+      A numeric value providing the standard deviation for the Y-axis body acceleration signal derived using a Fast            Fourier Transform (FFT).
 
 48.  __fBodyAcc-std()-Z (NUMERIC)__
+      A numeric value providing the standard deviation for the Z-axis body acceleration signal derived using a Fast            Fourier Transform (FFT).
 
 49.  __fBodyAccJerk-mean()-X (NUMERIC)__
+      A numeric value providing the mean for the X-axis body acceleration signal derived in time using a Fast Fourier          Transform (FFT).
 
 50.  __fBodyAccJerk-mean()-Y (NUMERIC)__
+      A numeric value providing the mean for the Y-axis body acceleration signal derived in time using a Fast Fourier          Transform (FFT).
 
 51.  __fBodyAccJerk-mean()-Z (NUMERIC)__
+      A numeric value providing the mean for the Z-axis body acceleration signal derived in time using a Fast Fourier          Transform (FFT).
 
 52.  __fBodyAccJerk-std()-X (NUMERIC)__
+      A numeric value providing the standard deviation for the X-axis body acceleration signal derived in time using a         Fast Fourier Transform (FFT).
 
 53.  __fBodyAccJerk-std()-Y (NUMERIC)__
+      A numeric value providing the standard deviation for the Y-axis body acceleration signal derived in time using a         Fast Fourier Transform (FFT).
 
 54.  __fBodyAccJerk-std()-Z (NUMERIC)__
-  
+      A numeric value providing the standard deviation for the Z-axis body acceleration signal derived in time using a         Fast Fourier Transform (FFT).
+
 55.  __fBodyGyro-mean()-X (NUMERIC)__
+      A numeric value providing the mean for the X-axis body gyroscope signal derived using a Fast Fourier Transform           (FFT).
 
 56.  __fBodyGyro-mean()-Y (NUMERIC)__
+      A numeric value providing the mean for the Y-axis body gyroscope signal derived using a Fast Fourier Transform           (FFT).
 
 57.  __fBodyGyro-mean()-Z (NUMERIC)__
+      A numeric value providing the mean for the Z-axis body gyroscope signal derived using a Fast Fourier Transform           (FFT).
 
 58.  __fBodyGyro-std()-X (NUMERIC)__
+      A numeric value providing the standard deviation for the X-axis body gyroscope signal derived using a Fast Fourier       Transform (FFT).
 
 59.  __fBodyGyro-std()-Y (NUMERIC)__
+      A numeric value providing the standard deviation for the Y-axis body gyroscope signal derived using a Fast Fourier       Transform (FFT).
 
 60.  __fBodyGyro-std()-Z (NUMERIC)__
+      A numeric value providing the standard deviation for the Z-axis body gyroscope signal derived using a Fast Fourier       Transform (FFT).
 
 61.  __fBodyAccMag-mean() (NUMERIC)__
+      A numeric value providing the mean magnitude for the three-dimensional body acceleration signal derived using a          Fast Fourier Transform (FFT).
 
 62.  __fBodyAccMag-std() (NUMERIC)__
+      A numeric value providing the standard deviation magnitude for the three-dimensional body acceleration signal            derived using a Fast Fourier Transform (FFT).
 
 63.  __fBodyBodyAccJerkMag-mean() (NUMERIC)__
+      A numeric value providing the mean magnitude for the three-dimensional body acceleration signal derived in time          using a Fast Fourier Transform (FFT).
 
 64.  __fBodyBodyAccJerkMag-std() (NUMERIC)__
+      A numeric value providing the standard deviation magnitude for the three-dimensional body acceleration signal            derived in time using a Fast Fourier Transform (FFT).
 
 65.  __fBodyBodyGyroMag-mean() (NUMERIC)__
+      A numeric value providing the mean magnitude for the three-dimensional body gyroscope signal derived in time using       a Fast Fourier Transform (FFT).
 
 66.  __fBodyBodyGyroMag-std() (NUMERIC)__
+      A numeric value providing the standard deviation magnitude for the three-dimensional body gyroscope signal derived       in time using a Fast Fourier Transform (FFT).
 
 67.  __fBodyBodyGyroJerkMag-mean() (NUMERIC)__
+      A numeric value providing the mean magnitude for the three-dimensional body gyroscope signal derived in time using       a Fast Fourier Transform (FFT).
 
 68.  __fBodyBodyGyroJerkMag-std() (NUMERIC)__
-
+      A numeric value providing the standard deviation magnitude for the three-dimensional body gyroscope signal derived       in time using a Fast Fourier Transform (FFT).
