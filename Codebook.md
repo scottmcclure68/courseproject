@@ -24,7 +24,9 @@ The purpose of this file is to provide descriptions of all of the columns includ
 4.  tBodyAcc-mean()-Y (NUMERIC)
       A numeric value providing the mean for the Y-axis body acceleration signal derived using a low-pass                       Butterworth filter with a corner frequency of 0.3 Hz.
       
-4.  tBodyAcc-mean()-Z
+4.  tBodyAcc-mean()-Z (NUMERIC)
+      A numeric value providing the mean for the Z-axis body acceleration signal derived using a low-pass                       Butterworth filter with a corner frequency of 0.3 Hz.
+
 5.  tBodyAcc-std()-X
 7.  tBodyAcc-std()-Y
 8.  tBodyAcc-std()-Z
